@@ -7,8 +7,8 @@ author:
 description: Basic usage of fstream.
 language: C++
 tags:
-  - Core
   - Input
+  - Core
 extra_resources:
 connections:
   - series: Basic C++
