@@ -1,4 +1,4 @@
-# Basic C++: C++ Reading Files
+# Intermediate C++: C++ Reading Files
 
 This demo covers the usage of fstream to get data from a file.
 It covers 2 strategies for reading files. On that goes word by word, and one that reads one line at a time.
