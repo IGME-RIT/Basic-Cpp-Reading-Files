@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 int main()
 {
     {
-        std::string fileName = "../assets/test.txt";    // The filepath of the file we want to read.
+        std::string fileName = "assets/test.txt";    // The filepath of the file we want to read.
                                                         // It's relative to the location of our project.
         // Create an ifstream object:
         std::ifstream file = std::ifstream(fileName);   // ifstream works exactly the same way as cin, so we can read the file the same way.
@@ -37,7 +37,7 @@ int main()
         
         if (file.is_open()) // Check if the file is open!
         {
-            std::cout << "File" << fileName << " opened successfully!" << std::endl;
+            std::cout << "File: " << fileName << " opened successfully!" << std::endl;
 
 
             std::string data;   // Create a string to store text in from the steam.
@@ -59,7 +59,7 @@ int main()
 
 
     {
-        std::string fileName = "../assets/test.txt";    // The filepath of the file we want to read.
+        std::string fileName = "assets/test.txt";    // The filepath of the file we want to read.
                                                         // It's relative to the location of our project.
                                                         // Create an ifstream object:
         std::ifstream file = std::ifstream(fileName);   // ifstream works exactly the same way as cin, so we can read the file the same way.
@@ -67,7 +67,7 @@ int main()
 
         if (file.is_open()) // Check if the file is open!
         {
-            std::cout << "File" << fileName << " opened successfully!" << std::endl;
+            std::cout << "File: " << fileName << " opened successfully!" << std::endl;
 
             std::string line;   // Here, we'll read the data line by line instead:
 
